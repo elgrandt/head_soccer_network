@@ -19,7 +19,6 @@ def main():
     graphicManager.StartNetworkGame() #tell graphic manager to start network game
     clock = pygame.time.Clock() #to handle fps
     continuar = True
-    #HOLA
     while continuar: #while the game is running
         events = pygame.event.get()
         graphicManager.Event(events)
